@@ -1,0 +1,12 @@
+/* Write some CSS below */
+.avatar {
+  border-radius: 50%;
+  /* not required below because we specified the width and height in the placeholder link */
+  /*width: 50px;*/
+  /*height: 50px;*/
+}
+
+.avatar-small {
+  border-radius: 50%;
+  width: 30px;
+}
