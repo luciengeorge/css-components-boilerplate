@@ -1,1 +1,54 @@
 /* Write some CSS below */
+
+.btn-medium {
+  border: 1px solid rgba(2, 158, 116, 1);;
+  color: rgba(2, 158, 116, 1);;
+  padding: 8px 16px;
+  border-radius: 4px;
+  opacity: 0.9;
+}
+
+.btn-medium:hover {
+  opacity: 1;
+}
+
+.btn-twitter {
+  background-color: #4AB3F4;
+  color: #FFFFFF;
+  padding: 6px 16px;
+  border-radius: 100px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.btn-twitter:hover {
+  opacity: 1;
+}
+
+.btn-google {
+  background-color: #D93025;
+  color: #FFFFFF;
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 4px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.btn-google:hover {
+  opacity: 1;
+}
+
+.btn-lewagon {
+  background-color: #FFFFFF;
+  color: #FD1015;
+  box-shadow: 0 2px 14px rgba(126, 87, 88, .1);
+  border-radius: 3px;
+  padding: 11px 20px;
+  opacity: 0.9;
+}
+
+.btn-lewagon:hover {
+  opacity: 1;
+}
+

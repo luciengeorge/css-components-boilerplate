@@ -12,16 +12,205 @@
   <!-- contain that will wrap all my components -->
   <div class="container">
     <h1>CSS Components</h1>
+    <div class="component">
+      <h2>Alert Design</h2>
 
-    <!-- Avatar design -->
-    <h2>Avatar Design</h2>
-    <img src="http://placehold.it/50x50" alt="" class="avatar">
-    <img src="http://placehold.it/50x50" alt="" class="avatar-small">
+      <!-- Alert with green border -->
+      <div class="flash flash-success">
+        <span><strong>Yay!</strong> 🎉 you successfully signed in to our service.</span>
+        <i class="fas fa-times"></i>
+      </div>
 
-    <!-- Button design -->
-    <h2>Button Design</h2>
-    <a href="#" class="btn-medium">Write Stories</a>
-    <a href="#" class="btn-twitter">Start now</a>
+      <!-- Alert with  yellow border -->
+      <div class="flash flash-warning">
+        <span><strong>Mmh</strong> 🤔 seems like you don't have <a href="#">profile picture</a> yet.</span>
+        <i class="fas fa-times"></i>
+      </div>
+
+      <!-- Alert with red border -->
+      <div class="flash flash-danger">
+        <span><strong>Oops!</strong> 😱 a problem has occurred while processing your booking.</span>
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+
+    <div class="component">
+      <h2>Avatar Design</h2>
+
+      <!-- small avatar -->
+      <img class="avatar" alt="avatar" src="https://kitt.lewagon.com/placeholder/users/cveneziani" />
+
+      <!-- large avatar -->
+      <img class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm" />
+
+      <!-- avatar with borders -->
+      <img class="avatar-bordered" alt="avatar-bordered" src="https://kitt.lewagon.com/placeholder/users/sarahlafer" />
+
+      <!-- square avatar -->
+      <img class="avatar-square" alt="avatar-square" src="https://kitt.lewagon.com/placeholder/users/krokrob" />
+    </div>
+
+    <div class="component">
+      <h2>Button Design</h2>
+
+      <!-- Medium Button -->
+      <a href="#" class="btn-medium">Write a story</a>
+
+      <!-- Google Button -->
+      <a href="#" class="btn-google">Create an account</a>
+
+      <!-- Twitter Button -->
+      <a href="#" class="btn-twitter">Tweet</a>
+
+      <!-- Le Wagon Button -->
+      <a href="#" class="btn-lewagon">Learn to code</a>
+    </div>
+
+    <div class="component">
+      <h2>Form Design</h2>
+
+      <!-- search form -->
+      <form action="#">
+        <div class="form-inputs">
+          <input class="form-search-input" type="text" name="search[query]" id="search_query" />
+          <button name="button" type="submit" class="submit-btn">
+            <i class="fas fa-search"></i> Search
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="component">
+      <h2>Tabs Design</h2>
+
+      <ul class="tabs-underlined">
+        <li>
+          <a href="#" class="tab-underlined active">Bookings</a>
+        </li>
+        <li>
+          <a href="#" class="tab-underlined">Requests</a>
+        </li>
+        <li>
+          <a href="#" class="tab-underlined">Conversations</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="component">
+      <h2>Navbar Design</h2>
+
+      <!-- le wagon navbar -->
+      <div class="navbar">
+        <div class="navbar-left">
+          <a class="navbar-logo" href="#">
+            <img class="avatar" src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" />
+          </a>
+        </div>
+
+        <div class="navbar-right">
+          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">Messages</a>
+          <a href="nav-link" href="#">
+            <img class="avatar" src="https://kitt.lewagon.com/placeholder/users/ssaunier" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="component">
+      <h2>Banner Design</h2>
+
+      <!-- banner -->
+      <div class="banner" style="background-image: linear-gradient(to right, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
+        <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
+        <p>Change your life and learn to code at one of our campuses around the world.</p>
+        <a class="submit-btn" href="#">Apply now</a>
+      </div>
+    </div>
+
+    <div class="component">
+      <h2>Card Design</h2>
+
+      <!-- first card -->
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+        Breakfast
+      </div>
+
+      <br>
+
+      <!-- second card -->
+      <div class="card-product">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg">
+        <div class="card-product-infos">
+          <h2>Product name</h2>
+          <p>Product description with <strong>relevant info</strong> only.</p>
+        </div>
+      </div>
+
+      <br>
+
+      <!-- third card -->
+      <div class="card-trip">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg">
+        <div class="card-trip-infos">
+          <div>
+            <h2>Title here</h2>
+            <p>Short description here!</p>
+          </div>
+          <h2 class="card-trip-pricing">£99.99</h2>
+          <img src='https://kitt.lewagon.com/placeholder/users/krokrob' class="card-trip-user avatar-bordered"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="component">
+      <h2>Footer Design</h2>
+
+      <!-- footer -->
+      <div class="footer">
+        <div class="footer-links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-copyright">
+          This footer is made with <i class="fas fa-heart"></i> at Le Wagon
+        </div>
+      </div>
+    </div>
+
+    <div class="component">
+      <h2>Notification Design</h2>
+
+      <!-- notification -->
+      <div class="notification">
+        <img src='https://kitt.lewagon.com/placeholder/users/arthur-littm' class="avatar-large"/>
+        <div class="notification-content">
+          <p><small>14th January</small></p>
+          <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit.</p>
+        </div>
+
+        <div class="notification-actions">
+          <a href="#">Edit <i class="fas fa-pencil-alt"></i></a>
+          <a href="#">Delete <i class="far fa-trash-alt"></i></a>
+        </div>
+      </div>
+
+      <div class="notification">
+        <img src='https://kitt.lewagon.com/placeholder/users/Eschults' class="avatar-large"/>
+        <div class="notification-content">
+          <p><small>9th January</small></p>
+          <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit.</p>
+        </div>
+
+        <div class="notification-actions">
+          <a href="#">Edit <i class="fas fa-pencil-alt"></i></a>
+          <a href="#">Delete <i class="far fa-trash-alt"></i></a>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>

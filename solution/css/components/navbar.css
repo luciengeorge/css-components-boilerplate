@@ -1,0 +1,29 @@
+/* Write some CSS below */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: white;
+}
+
+.navbar-left {
+  flex-grow: 1;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 0 10px;
+  color: black;
+  opacity: 0.9;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}

@@ -4,16 +4,20 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto");
 
 /* Links to Our CSS Components */
+/*@import url("components/alert.css");*/
 /*@import url("components/avatar.css");*/
 /*@import url("components/button.css");*/
-/*@import url("components/dropdown.css");*/
-/*@import url("components/card.css");*/
-/*@import url("components/banner.css");*/
+/*@import url("components/form.css");*/
 /*@import url("components/tabs.css");*/
-/*@import url("components/list.css");*/
+/*@import url("components/navbar.css");*/
+/*@import url("components/banner.css");*/
+/*@import url("components/card.css");*/
+/*@import url("components/footer.css");*/
+/*@import url("components/notification.css");*/
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: rgba(240, 240, 240);
 }
 
 h1, h2, h3 {

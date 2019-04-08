@@ -1,12 +1,26 @@
 /* Write some CSS below */
+
 .avatar {
+  width: 40px;
   border-radius: 50%;
-  /* not required below because we specified the width and height in the placeholder link */
-  /*width: 50px;*/
-  /*height: 50px;*/
 }
 
-.avatar-small {
+.avatar-large {
+  width: 56px;
   border-radius: 50%;
-  width: 30px;
 }
+
+.avatar-bordered {
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+.avatar-square {
+  width: 40px;
+  border-radius: 0px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
