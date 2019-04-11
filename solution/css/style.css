@@ -4,13 +4,13 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto");
 
 /* Links to Our CSS Components */
-@import url("components/alert.css");
 @import url("components/avatar.css");
 @import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/alert.css");
 @import url("components/form.css");
 @import url("components/tabs.css");
 @import url("components/navbar.css");
-@import url("components/banner.css");
 @import url("components/card.css");
 @import url("components/footer.css");
 @import url("components/notification.css");
